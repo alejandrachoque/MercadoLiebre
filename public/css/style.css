@@ -1,0 +1,356 @@
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*header*/
+
+
+
+header p{
+    margin: 11px;
+}
+body{
+    font-size: 12px;
+}
+h1{
+    display: none;
+
+}
+
+h2.titulares{
+    font-size: 24px;
+}
+p.precio{
+    font-size: 18px;
+    width: 30%;
+    
+}
+p.descuento{
+    font-size: 16px;
+    color: green;
+    width: 70%;
+
+}
+h3.descripcion{
+    font-size: 16px;
+}
+header{
+    background-color:#EAC926 
+}
+
+header div.logo img{
+    width: 150px;
+    padding: 11px;
+
+
+}
+header section.banner img{
+    width: 100vw;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul{
+    margin-bottom: 11px;
+}
+nav ul li{
+    list-style: none;
+}
+
+
+.burger{
+
+    
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger i{
+    background-color: blue;
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 9px;
+    border-radius: 18%;
+    margin-bottom: 19px;
+}
+
+footer section {
+    text-align: center;
+}
+footer i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: blue;
+    
+}
+main{
+    text-align: center;
+    width: 90vw;
+
+}
+    
+main article.articulos-main{
+    margin: 10px;
+ border-top: 1px solid #ebebeb;
+  padding: 15px;
+  background-color: white;
+  
+  
+
+  
+}
+
+
+main div.producto-main{
+    text-align: left;
+    border-top: 1px solid #ebebeb;
+
+}
+/*
+main article i{
+    
+   
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    
+   
+}*/
+main div.producto-main{
+    position: relative;
+}
+main div.producto-main i{
+    position: absolute;
+    right: 20px;
+    top: -15px;
+     color: green;
+    padding: 5px;
+    border:1px solid #39b54a;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    background-color: #FFF;
+}
+
+main section article i{
+    right: 20px;
+    position: absolute;
+
+}
+body{
+    background-color: #d1cece;
+}
+
+div.pyd{
+    display: flex;
+    
+} 
+
+div.bloque{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+
+}
+header div.logo img{
+    width: 50%;
+}
+header div.logo form{
+    width: 50%;
+    margin: auto;
+}
+div.lyf{
+    display: flex;
+    justify-content: center;
+}
+
+form input{
+    width: 70%;
+
+}
+
+@media (min-width: 361px) {
+/*body*/
+    
+    /*section.ultima-vista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section.oferta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}*/
+
+    header p{
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    nav{
+        font-size: 14px;
+    }
+    main {
+        width: 100vw;
+
+    }
+article.articulos-main{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+    
+   
+}
+.burger i{
+    display: none;
+}
+
+
+}
+@media(min-width: 769px){
+
+
+header{
+
+    font-size: 20px;
+}
+
+header div.logo img{
+    width: 200px;
+    padding: 11px;
+
+}
+header div.logo img{
+    width: 50%;
+}
+header div.logo form{
+    width: 50%;
+    margin: auto;
+}
+div.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    margin-right: 11px;
+}
+main h3.descripcion{
+    text-align: center;
+    display: none;
+}
+/*header nav{
+    display: none;
+}main h3.descripcion{
+    text-align: center;
+    display: none;
+}
+header nav{
+    display: none;
+}*/
+nav ul.a{
+    display: flex
+    ;
+}
+nav ul.b{
+    display: flex;
+    justify-content: space-around;
+}
+}
+@media(max-width:360px){
+main h3.descripcion{
+    text-align: center;
+    display: none;
+}
+header nav{
+    display: none;
+} }
+
+
+
+/*fomulario
+form#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}*/
+
+form#formulario label{
+    margin-bottom: 11px;
+}
+form input[type="radio"]{
+width: 14px;
+
+;
+}
+form input[type="checkbox"]{
+    width: 14vw;
+}
+div.interes label{
+    display: flex;
+    
+}
+input[type="text"]{
+    margin: 12px;
+}
+input[type="text"]:focus{
+    border:  2px solid #000;
+    background: #f3f3f3;
+}
+main#form h1{
+    display: inline;
+    
+
+    
+}
+input[type="password"]{
+    margin: 12px;
+}
+/*login*/
+
+form#login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+}
+form#login label{
+    margin: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    border-radius: 10px;
+}
+form#login button{
+    margin: 14px;
+    width: 56vw;
+}
+main #form{
+    display: flex;
+    /*
+    flex-direction: column;
+    align-items: center;*/
+}
+form{
+max-width: 520px;
+padding: 15px;
+border: 1px solid;
+}

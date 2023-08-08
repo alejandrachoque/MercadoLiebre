@@ -4,7 +4,9 @@ const path= require('path');
 
 app.use(express.static(path.resolve(__dirname, 'public')));
 
-const PORT=3030;
+const PORT= 3030
+const port= process.env.PORT || 3001;
+
 
 
 app.listen(PORT, ()=>console.log('Corriendo en el puerto '+ PORT));

@@ -319,6 +319,9 @@ div.footer{
 div.footer i:hover{
     color: blue;
 }
+div.lyf{
+    width: 1000px;
+} 
 }
 @media (min-width:1024px){
    
@@ -332,7 +335,8 @@ main h3.descripcion{
 }
 header nav{
     display: none;
-} }
+}
+}
 
 
 

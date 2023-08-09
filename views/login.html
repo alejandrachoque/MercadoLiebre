@@ -24,7 +24,7 @@
                         
                 </form>
                </div>
-            <p> <i class="fa-solid fa-hand-holding-dollar"></i>compra en cuotas y sin tarjeta de crédito</p>
+            <p class="frase"> <i class="fa-solid fa-hand-holding-dollar"></i>compra en cuotas y sin tarjeta de crédito</p>
             
         </div>
 
@@ -61,7 +61,7 @@
         <div class="burger">
             <i class="fa-solid fa-bars"></i>
         </div>
-                <section class="banner">
+                <section class="banner1">
                     <img src="./images/img-home-banner.jpg" alt=" banner" width="350px">
                 </section>
     </header>
@@ -69,10 +69,10 @@
         <h1>Inicia sesión</h1>
     <form action="/login" method="post" id="login">
         <label for="nombredelusuario">
-            <input type="text" name="nombreUsuario" id="nombredelusuario" placeholder="Nombre de usuario">
+            <input type="text" name="nombreUsuario"  id="nombredelusuario" placeholder="Nombre de usuario">
         </label>
         <label for="contra">
-            <input type="password" name="contraseña" id="contra" placeholder="Contraseña" >
+            <input type="password" name="contraseña" minlength="4" maxlength="12" id="contra" placeholder="Contraseña"  required>
         </label>
         <button type="submit">Enviar</button>
 

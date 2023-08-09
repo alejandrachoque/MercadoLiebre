@@ -177,9 +177,17 @@ form input{
 }
 footer p{
     margin: 12px;
+    padding: 15px;
 }
-
-@media (min-width: 361px) {
+p.frase{
+    font-weight: bold;
+}
+input.input{
+    padding: 4px;
+    margin: 11px;
+    border-radius: 10px;
+}
+@media (min-width: 480px) {
 /*body*/
     
     /*section.ultima-vista{
@@ -213,9 +221,10 @@ article.articulos-main{
     
    
 }
-.burger i{
+/*.burger i{
     display: none;
-}
+}*/
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -231,10 +240,27 @@ nav ul.a{
 nav ul.b{
     display: flex;
     justify-content: space-around;
-}
+}*/
 }
 @media(min-width: 769px){
-
+    .burger i{
+        display: none;}
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 22px;
+    }
+    nav ul li{
+        margin-right: 11px;
+    }
+    nav ul.a{
+        display: flex
+        ;
+    }
+    nav ul.b{
+        display: flex;
+        justify-content: space-around;
+    }
 
 header{
 
@@ -246,13 +272,13 @@ header div.logo img{
     padding: 11px;
 
 }
-header div.logo img{
+/*header div.logo img{
     width: 50%;
 }
 header div.logo form{
     width: 50%;
     margin: auto;
-}
+}*/
 div.logo{
     display: flex;
     align-items: center;
@@ -294,7 +320,12 @@ div.footer i:hover{
     color: blue;
 }
 }
-@media(max-width:360px){
+@media (min-width:1024px){
+   
+   
+} 
+
+@media(max-width:768px){
 main h3.descripcion{
     text-align: center;
     display: none;
@@ -312,7 +343,9 @@ form#formulario{
     align-items: center;
 
 }*/
-
+section.banner1{
+    display: none;
+}
 main#form{
     width: 100vw;
 }
@@ -379,13 +412,19 @@ form#formulario input[type=file] {
 form#formulario input{
     background-color: white;
 }
-form#formulario button{
+form#formulario button.reset{
     background-color: white;
 }
-main#form{
+form#formulario button.submit{
+    background-color: white;
+}
+form#formulario{
+    background-color: lightgrey;
+}
+/*main#form{
     font-size: 1.5em;
     
-}
+}*/
 form#formulario{
     width: 100vw;
 }
@@ -439,10 +478,14 @@ form#login button:hover{
     background-color: #0022AA;
     color: white
 }
+
+
 form#login input{
     border-radius: 13px;
 }
-
+form#login{
+    font-size: 15px;
+}
 /*formulario de registro*/
 main#form{
     display: flex;
@@ -454,9 +497,16 @@ max-width: 520px;
 padding: 15px;
 ;
 }
-form#formulario button:hover{
+form#formulario button.submit:hover{
     background-color: blue;
     color: white
+}
+form#formulario button.reset:hover{
+    background-color: red;
+    color: white
+}
+form#formulario {
+    font-size: 15px;
 }
 /*tp organizando elementos*/
 
